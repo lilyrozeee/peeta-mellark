@@ -26,8 +26,7 @@ header h1{
 
 header img{
 	border-radius: 700px;
-	width: 200px;
-	padding: 0px, 20px, 0px, 100px;
+	width: 200px
 
 }
 
@@ -36,6 +35,7 @@ main{
 	padding-left: 50px;
 	max-width: 500px;
 	margin: 10 auto;
+	padding-left: 500px;
 
 }
 
@@ -51,5 +51,30 @@ h2{
 	font-style: bold;
 }
 
+h1, h2{
+	line-height: 70px;
+}
 
+a{
+	color: #9e8f7a;
 
+}
+
+a:hover{
+	color: #e6d7c3;
+	opacity: 0.5;
+	background-color: #ada499;
+}
+
+footer{
+	margin: 40;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+p.caption{
+	color: #555555;
+	font-size: 10px;
+	text-align: right;
+}
